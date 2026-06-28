@@ -18,7 +18,7 @@ body[data-slug="index"] {
 
 .left.sidebar .flex-component {
   align-items: center;
-  width: fit-content;
+  justify-content: space-between;
   gap: 0.5rem;
 
   .search-button {
@@ -26,10 +26,17 @@ body[data-slug="index"] {
     border: none;
     padding: 0;
     width: auto;
+    display: flex;
+    align-items: center;
 
     p {
       display: none;
     }
+  }
+
+  .darkmode {
+    display: flex;
+    align-items: center;
   }
 
   .search-button svg,
@@ -37,6 +44,7 @@ body[data-slug="index"] {
     width: 16px;
     height: 16px;
     min-width: 16px;
+    display: block;
   }
 }
 
