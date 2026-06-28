@@ -28,3 +28,10 @@ body[data-slug="index"] {
     list-style: none;
   }
 }
+
+body[data-slug="index"] {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
