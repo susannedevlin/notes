@@ -18,8 +18,11 @@ body[data-slug="index"] {
 
 .left.sidebar .flex-component {
   align-items: center;
-  justify-content: space-between;
   gap: 0.5rem;
+
+  > div:has(.page-title) {
+    flex-grow: 1;
+  }
 
   .search-button {
     background: none;
@@ -44,7 +47,6 @@ body[data-slug="index"] {
     width: 16px;
     height: 16px;
     min-width: 16px;
-    display: block;
   }
 }
 
