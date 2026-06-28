@@ -8,3 +8,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+body[data-slug="index"] {
+  .article-title,
+  .content-meta {
+    display: none;
+  }
+}
