@@ -225,8 +225,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/susannedevlin
+        Linkedin: https://linkedin.com/in/susannedevlin
   - source: github:quartz-community/recent-notes
     enabled: true
     options:       
