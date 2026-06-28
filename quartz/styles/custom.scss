@@ -16,6 +16,30 @@ body[data-slug="index"] {
   }
 }
 
+.left.sidebar .flex-component {
+  align-items: center;
+
+  .page-title {
+    a {
+      white-space: nowrap;
+    }
+  }
+
+  #search-bar {
+    display: none;
+  }
+
+  .search-button {
+    background: none;
+    padding: 0;
+    width: auto;
+
+    p {
+      display: none;
+    }
+  }
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
