@@ -4,6 +4,8 @@ Bucket 1: Frameworks for MBTI
  - Second Order Thinking (good for ideas)
  - Thought Experiments
 
+[[This is what happens when a note title is very long and takes up space]]
+
 N:
 Inversion (turn idea upside down, work backwards from goal)
 Iceberg Model (seeing reality from different levels
