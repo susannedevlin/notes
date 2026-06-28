@@ -168,7 +168,7 @@ plugins:
       position: left
       priority: 20
       group: toolbar
-      groupOptions:
+      groupoptions:
         grow: false
   - source: github:quartz-community/backlinks
     enabled: true
