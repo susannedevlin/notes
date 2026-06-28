@@ -17,24 +17,10 @@ body[data-slug="index"] {
 }
 
 .left.sidebar .flex-component {
-  .search-button svg,
-  .darkmode svg {
-    width: 16px;
-    height: 16px;
-    min-width: 16px;
-  }
+  align-items: center;
+  width: fit-content;
+  gap: 0.5rem;
 
-  > div:has(.page-title) {
-    flex-grow: 1;
-  }
-
-  > div:has(.search),
-  > div:has(.darkmode) {
-    flex-grow: 0;
-  }
-}
-
-.left.sidebar .flex-component {
   .search-button {
     background: none;
     border: none;
@@ -44,6 +30,13 @@ body[data-slug="index"] {
     p {
       display: none;
     }
+  }
+
+  .search-button svg,
+  .darkmode svg {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
   }
 }
 
