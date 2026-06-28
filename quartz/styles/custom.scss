@@ -40,6 +40,24 @@ body[data-slug="index"] {
   }
 }
 
+.left.sidebar .flex-component {
+  .search-button svg,
+  .darkmode svg {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+  }
+
+  > div:has(.page-title) {
+    flex-grow: 1;
+  }
+
+  > div:has(.search),
+  > div:has(.darkmode) {
+    flex-grow: 0;
+  }
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
